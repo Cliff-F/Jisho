@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Font</string>
+			<key>Key</key>
+			<string>FontName</string>
+			<key>DefaultValue</key>
+			<string>Baskerville</string>
+			<key>Titles</key>
+			<array>
+				<string>Baskerville</string>
+				<string>Helvetica Neue</string>
+				<string>Futura</string>
+				<string>AmericanTypewriter</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<string>Baskerville</string>
+				<string>Helvetica Neue</string>
+				<string>Futura</string>
+				<string>AmericanTypewriter</string>
+			</array>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<false/>
+			<key>Key</key>
+			<string>DisableHistory</string>
+			<key>Title</key>
+			<string>No History</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<false/>
+			<key>Key</key>
+			<string>StartAsBlank</string>
+			<key>Title</key>
+			<string>Start new search on opening</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+		<dict>
+			<key>DefaultValue</key>
+			<false/>
+			<key>Key</key>
+			<string>ClearWhenDone</string>
+			<key>Title</key>
+			<string>Clear when Done</string>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>
